@@ -326,3 +326,14 @@ display: none; /*отключил карусель*/
 	margin: 0 auto;
 	color: #878780;
 }
+
+.blocks-services-one {
+	width: 19%;
+	height: 150px;
+	display: inline-block;
+	text-align: center;
+}
+
+/*.blocks-services-one img {
+	text-align: center;
+}*/
