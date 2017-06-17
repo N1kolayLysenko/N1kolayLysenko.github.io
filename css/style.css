@@ -14,6 +14,12 @@ ul, li {
 	list-style-type: none;
 }
 
+.border-line-bottom {
+	border-bottom: 1px solid #ddebd4;
+	margin: 30px auto !important;
+	padding: 30px 0 !important;
+}
+
 .wrapper {
 	width: 95%;
 	margin: 0 auto;
@@ -203,6 +209,11 @@ ul.sdt_menu li div.sdt_box a:hover{
 	height: 90px;
 }
 
+.blocks {
+	clear: both;
+	overflow: auto;
+}
+
 #myCarousel {
 width: 100%;
 outline: none;
@@ -246,4 +257,32 @@ display: none; /*отключил карусель*/
 
 .carousel-indicators .active {
 	background-color: red;
+}
+
+.nav-tabs {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+.tab-pane {
+	padding-top: 35px;
+}
+
+.tab-content h3, p {
+	text-align: center;
+}
+
+.tab-content h3 {
+	font-size: 36px;
+	padding-bottom: 15px;
+}
+
+.tab-content p {
+	font-size: 18px;
+	color: #878780;
+}
+
+.navigation {
+	margin-top: -35px !important;
 }
