@@ -402,7 +402,7 @@ display: none; /*отключил карусель*/
 /*	padding: 10px 2.5% 0 2.5%;*/
 /*	height: 150px;*/
 /*	overflow: auto;*/
-min-height: 600px;
+	min-height: 600px;
 }
 
 .footer-backgroung iframe{
