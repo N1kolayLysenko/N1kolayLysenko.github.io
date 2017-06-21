@@ -352,6 +352,7 @@ display: none; /*отключил карусель*/
 .rate {
 	text-align: center;
 	overflow: auto;
+	padding: 0 !important;
 }
 
 .comm-margin {
