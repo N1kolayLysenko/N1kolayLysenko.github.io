@@ -418,3 +418,13 @@ min-height: 600px;
 	margin-top:-550px;
 }
 
+.contacts-footer {
+	margin: 0 auto;
+	background-color: #373a3e;
+	color: #fff;
+}
+
+.contacts-footer ul li {
+	line-height: 25px;
+}
+
