@@ -382,7 +382,7 @@ display: none; /*отключил карусель*/
 }
 
 .share h1 {
-    margin: 0 auto 35px;
+    margin: 0 auto 35px !important;
 }
 
 /*#share-buttons img {
