@@ -25,6 +25,7 @@ ul, li {
 	margin-bottom: 50px;
 	border-radius: 10px;
 	padding: 10px 0;
+	text-align: center;
 }
 
 .wrapper {
@@ -279,7 +280,7 @@ display: none; /*отключил карусель*/
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-	color: green;
+	color: red;
 }
 
 .tab-pane {
@@ -357,10 +358,25 @@ display: none; /*отключил карусель*/
 .rate {
 	text-align: center;
 	overflow: auto;
-	padding: 0 !important;
+	padding: 0 0 15px !important;
 	margin-top: -15px !important;
 }
 
 .comm-margin {
 	margin: 0 auto 20px;
+}
+
+.brand {
+	padding: 0 !important;
+	overflow: auto;
+	margin-top: -15px !important;
+}
+
+.brand img {
+	height: 100px;
+	margin: 0 auto;
+}
+
+.brand-img {
+	text-align: center;
 }
