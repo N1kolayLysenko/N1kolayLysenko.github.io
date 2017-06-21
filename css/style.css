@@ -310,7 +310,7 @@ display: none; /*отключил карусель*/
 	background-color: #f7f7f7;
 	padding: 5px 0;
 	margin-top: -25px;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 }
 
 .about-us img {
@@ -334,6 +334,26 @@ display: none; /*отключил карусель*/
 	text-align: center;
 }
 
-/*.blocks-services-one img {
+.first-comm, .second-comm  {
+	border: 1px solid #ddebd4;
+	overflow: auto;
+	padding: 15px 5px 25px 5px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	width: 98%;
+	margin: 0 auto;
+}
+
+.photo-comm {
+	border-right: 1px solid #ddebd4;
+/*	box-shadow: 0 0 10px rgba(0,0,0,0.5);*/
+}
+
+.rate {
 	text-align: center;
-}*/
+	overflow: auto;
+}
+
+.comm-margin {
+	margin: 0 auto 20px;
+}
