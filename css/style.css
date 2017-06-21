@@ -20,6 +20,13 @@ ul, li {
 	padding: 30px 0 !important;
 }
 
+.background-h1 {
+	background-color: #f7f7f7;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	padding: 10px 0;
+}
+
 .wrapper {
 	width: 95%;
 	margin: 0 auto;
@@ -299,7 +306,8 @@ display: none; /*отключил карусель*/
 }
 
 .navigation {
-	margin-top: -35px !important;
+/*	margin-top: -35px !important;*/
+	padding: 0 0 35px !important;
 }
 
 .about-us {
@@ -307,10 +315,7 @@ display: none; /*отключил карусель*/
 }
 
 .about-us h1 {
-	background-color: #f7f7f7;
-	padding: 5px 0;
 	margin-top: -25px;
-	margin-bottom: 50px;
 }
 
 .about-us img {
@@ -353,6 +358,7 @@ display: none; /*отключил карусель*/
 	text-align: center;
 	overflow: auto;
 	padding: 0 !important;
+	margin-top: -15px !important;
 }
 
 .comm-margin {
