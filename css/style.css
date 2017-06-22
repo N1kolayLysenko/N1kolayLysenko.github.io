@@ -544,10 +544,15 @@ ul.sdt_menu li div.sdt_box a:hover{
 	margin: 0 auto;
 	background-color: #373a3e;
 	color: #fff;
+	padding: 0 !important;
 }
 
 .contacts-footer ul li {
 	line-height: 25px;
+}
+
+.block-one-cont-footer {
+	padding: 0 !important;
 }
 
 .iframe {
@@ -603,4 +608,29 @@ ul.sdt_menu li div.sdt_box a:hover{
 
 .head-li {
 	font-size: 38px;
+}
+
+.footer-bottom {
+	height: 70px;
+	clear: both;
+	background-color: #373a3e;
+	border-top: 1px solid #fff;
+	padding-top: 5px;
+	position: relative;
+}
+
+.footer-bottom img {
+/*	background-color: black;*/
+/*	padding-left: 10px;*/
+	height: 40px;
+/*	padding: 0 !important;*/
+}
+
+.year-bottom {
+	font-size: 18px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
 }
