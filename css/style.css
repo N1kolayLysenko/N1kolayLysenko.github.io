@@ -484,6 +484,14 @@ ul.sdt_menu li div.sdt_box a:hover{
 	margin-top: -15px !important;
 }
 
+.rate img {
+	border-radius: 35px;
+}
+
+.rate span {
+	font-weight: 700;
+}
+
 .comm-margin {
 	margin: 0 auto 20px;
 }
