@@ -128,16 +128,43 @@ body {
 	font-family: 'Arial';
 }
 
+.logo {
+	width: 400px;
+}
+
+.fixHeader {
+	position: fixed;
+    width: 100%;
+    top: 0;
+    clear: both;
+    z-index: 999999;
+/*    border-bottom: 1px solid #373a3e;*/
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.forContent {
+	clear: both;
+	padding-top: 170px;
+
+}
+
+.header-color {
+	clear: both;
+	background-color: #fff;
+}
+
 .logo img {
 	width: 380px;
 }
 
 header {
 	clear: both;
+/*	position: fixed;*/
 }
 
 .content {
 	margin-top: 10px !important;
+	float: right;
 }
 
 ul.sdt_menu{
@@ -169,7 +196,7 @@ ul.sdt_menu li > a{
 	width:170px;
 	height:85px;
 	z-index:12;
-	background:transparent url(../images/overlay.png) no-repeat bottom right;
+/*	background:transparent url(../images/overlay.png) no-repeat bottom right;*/
 	-moz-box-shadow:0px 0px 2px rgba(0, 0, 0, 0)inset;
 	-webkit-box-shadow:0px 0px 2px rgba(0, 0, 0, 0)inset;
 	box-shadow:0px 0px 2px rgba(0, 0, 0, 0)inset;
